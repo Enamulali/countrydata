@@ -95,3 +95,22 @@ input:checked+.slider {
 input:checked+.slider:before {
     transform: translateX(26px);
 }
+
+/* Search and Fetch button container */
+.search-fetch-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Style for the search input field */
+#searchInput {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 200px;
+}
+#fetchDataBtn {
+    margin-left: 10px;
+}
